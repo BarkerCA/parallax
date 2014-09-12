@@ -9121,6 +9121,21 @@ th.hide-for-touch {
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7);
 }
 
+/* line 1, C:/Sites/parallax/app/assets/stylesheets/lib/classes/_alignment.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 5, C:/Sites/parallax/app/assets/stylesheets/lib/classes/_alignment.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 9, C:/Sites/parallax/app/assets/stylesheets/lib/classes/_alignment.scss */
+.text-right {
+  text-align: right;
+}
+
 /*
 HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -11554,6 +11569,52 @@ Media Queries
     font-size: 22px;
   }
 }
+/* line 2002, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area {
+  background: #333;
+  color: #848482;
+  padding: 25px 0px 45px 0px;
+  box-shadow: inset 1px 0px 7px rgba(0, 0, 0, 0.9);
+}
+/* line 2008, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+/* line 2012, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row .columns {
+  margin-top: 20px;
+}
+/* line 2016, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row p {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* line 2020, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row a {
+  color: #848482;
+}
+/* line 2023, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row a:hover {
+  color: white;
+}
+/* line 2027, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row img.social {
+  width: 19%;
+  opacity: 0.5;
+}
+/* line 2032, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row img.social:hover {
+  opacity: 1.0;
+}
+/* line 2036, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row #youversion {
+  width: 79%;
+}
+/* line 2040, C:/Sites/parallax/app/assets/stylesheets/parallax-pnc.css.scss */
+#gwfoot-footer-disclaimer-area .row #bible {
+  width: 19%;
+}
+
 /* PNC Tag Definitions */
 /* line 3, C:/Sites/parallax/app/assets/stylesheets/pnc/_tags.scss */
 pre {

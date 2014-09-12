@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require foundation
+//= require reftagger
+//= require responsive-menu
+//= require modernizr
+$(document).foundation();

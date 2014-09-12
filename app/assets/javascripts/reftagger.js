@@ -4,10 +4,10 @@ var refTagger = {
     roundCorners: true,     
     customStyle : {
       heading: {
-        color : "#77B800"
+        color : "#003592"
       },
       body   : {
-        color : "#003592",
+        color : "#555",
         moreLink : {
           color: "#77B800"
         }

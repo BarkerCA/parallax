@@ -1997,3 +1997,48 @@ Media Queries
   }
 
 }
+
+#gwfoot-footer-disclaimer-area{
+  background: #333;
+  color: $grayBattleship;
+  padding: 25px 0px 45px 0px;
+  box-shadow:inset 1px 0px 7px rgba(0,0,0,0.9);
+  
+  .row{
+    @include single-text-shadow(1px, 1px, 1px, null, rgba(0,0,0,0.7));
+    
+    .columns{
+      margin-top: 20px;  
+    }
+    
+    p{
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    a{
+      color: $grayBattleship;
+    }
+    
+    a:hover{
+      color: $white;
+    }
+    
+    img.social{
+      width: 19%;
+      opacity: 0.5;
+    }
+    
+    img.social:hover{
+      opacity: 1.0;
+    }
+    
+    #youversion{
+      width: 79%;
+    }
+    
+    #bible{
+      width: 19%;
+    }
+  }
+}
