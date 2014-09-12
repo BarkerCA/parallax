@@ -1,0 +1,12 @@
+/* PNC Tag Definitions */
+pre{
+  padding: 20px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0,0,0,0.1);
+  margin: 0px;
+  @include border-radius($big-border-radius);
+}
+
+p{
+  margin: 10px;
+}

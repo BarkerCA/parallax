@@ -1,0 +1,14 @@
+// The number of columns in the grid.
+$blueprint-grid-columns: 24 !default;
+
+// The width of a column
+$blueprint-grid-width: 30px !default;
+
+// The amount of margin between columns
+$blueprint-grid-margin: 10px !default;
+
+// The width of a column including the margin. With default settings this is `40px`.
+$blueprint-grid-outer-width: $blueprint-grid-width + $blueprint-grid-margin;
+
+// The width of the container. With default settings this is `950px`.
+$blueprint-container-size: $blueprint-grid-outer-width * $blueprint-grid-columns - $blueprint-grid-margin;

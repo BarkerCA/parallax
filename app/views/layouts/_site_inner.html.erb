@@ -1,0 +1,14 @@
+      <div class="site-inner">
+        <div class="content-sidebar-wrap">
+          <main class="content" role="main" itemprop="mainContentOfPage">
+            <article class="post-20 page type-page status-publish entry" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+              <header class="entry-header">
+                <h1 class="entry-title" itemprop="headline"><%= params[:controller].titleize %></h1> 
+              </header>
+              
+              <%= yield %>
+              
+            </article>
+          </main>
+        </div>
+      </div>

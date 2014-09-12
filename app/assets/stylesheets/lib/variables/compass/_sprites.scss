@@ -1,0 +1,8 @@
+// Determines those states for which you want to enable magic sprite selectors
+$sprite-selectors: hover, target, active;
+// Determines if you want to include magic selectors in your sprites
+$disable-magic-sprite-selectors: false;
+$sprite-default-size: 32px;
+$sprite-default-margin: 0px;
+$sprite-image-default-width: $sprite-default-size;
+$sprite-image-default-height: $sprite-default-size;

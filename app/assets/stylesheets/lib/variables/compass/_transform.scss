@@ -1,0 +1,30 @@
+// The default x-origin for transforms
+$default-origin-x: 50%;
+// The default y-origin for transforms
+$default-origin-y: 50%;
+// The default z-origin for transforms
+$default-origin-z: 50%;
+// The default x-multiplier for scaling
+$default-scale-x: 1.25;
+// The default y-multiplier for scaling
+$default-scale-y: $default-scale-x;
+// The default z-multiplier for scaling
+$default-scale-z: $default-scale-x;
+// The default angle for rotations
+$default-rotate: 45deg;
+// The default x-vector for the axis of 3d rotations
+$default-vector-x: 1;
+// The default y-vector for the axis of 3d rotations
+$default-vector-y: 1;
+// The default z-vector for the axis of 3d rotations
+$default-vector-z: 1;
+// The default x-length for translations
+$default-translate-x: 1em;
+// The default y-length for translations
+$default-translate-y: $default-translate-x;
+// The default z-length for translations
+$default-translate-z: $default-translate-x;
+// The default x-angle for skewing
+$default-skew-x: 5deg;
+// The default y-angle for skewing
+$default-skew-y: 5deg;

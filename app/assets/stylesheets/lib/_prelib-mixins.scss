@@ -1,0 +1,26 @@
+@mixin box-emboss($opacity, $opacity2){
+    box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+}
+
+@mixin letterpress($opacity: .7){
+  @include text-shadow(1px 1px 0px rgba(255,255,255, $opacity));
+}
+
+@mixin imprint($opacity1: .5, $opacity2: .5){
+    $shadow1: 1px 1px 0 rgba(255,255,255, $opacity1);
+    $shadow2: -1px -1px 0px rgba(0,0,0, $opacity2);
+    @include text-shadow($shadow1, $shadow2);
+}
+
+@mixin emboss($opacity1, $opacity2){
+    $shadow1: -1px -1px 0 rgba(255,255,255, $opacity1);
+    $shadow2: 1px 1px 0 rgba(0,0,0, $opacity2);
+    @include text-shadow($shadow1, $shadow2);
+}
+
+@mixin linear-gradient-topbottom($top, $bottom) {
+  background: -webkit-linear-gradient($top, $bottom); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($top, $bottom); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($top, $bottom); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($top, $bottom); /* Standard syntax */
+}

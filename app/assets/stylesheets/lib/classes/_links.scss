@@ -1,0 +1,9 @@
+//
+// Links Classes
+//
+
+// Class is assigned to external links via JavaScript in global.js
+.externalLink{
+  color: lighten($primary-color, 20%);
+  @include text-shadow;
+}

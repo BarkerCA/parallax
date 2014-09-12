@@ -1,0 +1,4 @@
+// We use these to style <code> tags
+$code-color: scale-color($alert-color, $lightness: -27%);
+$code-font-family: Consolas, 'Liberation Mono', Courier, monospace;
+$code-font-weight: $font-weight-bold;

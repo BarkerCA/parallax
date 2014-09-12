@@ -1,0 +1,21 @@
+/* PNC Color Classes */
+
+.pnc_green{
+  color: $pnc-green;
+}
+
+.pnc_blue{
+  color: $pnc-blue;
+}
+
+.pnc_gray{
+  color: $pnc-gray;
+}
+
+/* Header Gradient */
+.header-linear{
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, blue); /* Standard syntax */
+}

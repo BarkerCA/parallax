@@ -1,0 +1,10 @@
+// Main layout grid, override these constants to build your grid and container sizes.
+$blueprint-grid-columns: 24 !default;
+
+$blueprint-grid-width: 30px !default;
+
+$blueprint-grid-margin: 10px !default;
+
+$blueprint-grid-outer-width: $blueprint-grid-width + $blueprint-grid-margin;
+
+$blueprint-container-size: $blueprint-grid-outer-width * $blueprint-grid-columns - $blueprint-grid-margin;

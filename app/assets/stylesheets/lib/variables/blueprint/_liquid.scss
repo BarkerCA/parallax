@@ -1,0 +1,14 @@
+// Main layout grid, override these constants to build your grid and container sizes.
+// The width shown gives the right floored percentage values.
+$blueprint-liquid-grid-columns: 24 !default;
+
+$blueprint-liquid-grid-width: 3.167% !default;
+
+$blueprint-liquid-grid-margin: 1.042% !default;
+
+// Do not edit below this line unless you really know what you're doing.
+$blueprint-liquid-container-width: 80% !default;
+
+$blueprint-liquid-container-min-width: 950px !default;
+
+$blueprint-liquid-grid-push-pull: -($blueprint-liquid-grid-margin + $blueprint-liquid-grid-width) !default;

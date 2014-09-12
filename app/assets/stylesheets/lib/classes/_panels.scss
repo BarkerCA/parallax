@@ -1,0 +1,46 @@
+//
+// Panels
+//
+.cpanel{
+  @extend .panel;
+  @extend .panel-default;
+  
+  .panel-heading{
+    @extend .panel-heading;
+    
+    .panel-title{
+      @extend .panel-title;
+    }
+  }
+  .panel-body{
+    @extend .panel-body;
+  }
+  .panel-footer{
+    @extend .panel-footer;
+  }
+}
+
+.cpanel-primary{
+  @extend .cpanel;
+  @extend .panel-primary;
+}
+
+.cpanel-success{
+  @extend .cpanel;
+  @extend .panel-success;
+}
+
+.cpanel-info{
+  @extend .cpanel;
+  @extend .panel-info;
+}
+
+.cpanel-warning{
+  @extend .cpanel;
+  @extend .panel-warning;
+}
+
+.cpanel-danger{
+  @extend .cpanel;
+  @extend .panel-danger;
+}

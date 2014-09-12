@@ -1,0 +1,5 @@
+/* Override Parallax Button Class */
+
+.button-p{
+  @include border-radius($big-border-radius);
+}

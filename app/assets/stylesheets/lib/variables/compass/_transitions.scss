@@ -1,0 +1,12 @@
+// CSS Transitions Currently only works in Webkit.
+// expected in CSS3, FireFox 3.6/7 and Opera Presto 2.3
+// We'll be prepared.
+$default-transition-property: all;
+// Override them if you like. Timing-function and delay are set to false for browser defaults (ease, 0s).
+$default-transition-duration: 1s;
+// Transition function
+$default-transition-function: false;
+// Transition delay
+$default-transition-delay: false;
+// Prefixed Values
+$transitionable-prefixed-values: transform, transform-origin;

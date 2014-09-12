@@ -1,0 +1,111 @@
+//
+// Alert Classes
+//
+
+.alert-default{
+  @extend .alert-box;
+  background-color: $primary-background;
+  border-color: $primary-dark;
+  color: $primary-darker;
+  @include letterpress;
+}
+
+.alert-default-radius{
+  @extend .alert-default;
+  @extend .radius
+}
+  
+.alert-default-round{
+  @extend .alert-default;
+  @extend .round;
+}
+
+.alert-info{
+  @extend .alert-box;
+  background-color: $info-background;
+  border-color: $info-dark;
+  color: $info-darker;
+  @include letterpress;
+}
+  
+.alert-info-radius{
+  @extend .alert-info;
+  @extend .radius;
+}
+  
+.alert-info-round{
+  @extend .alert-info;
+  @extend .round;
+}
+  
+.alert-secondary{
+  @extend .alert-box;
+  background-color: $secondary-background;
+  border-color: $secondary-dark;
+  color: $secondary-darker;
+  @include letterpress;
+}
+  
+.alert-secondary-radius{
+  @extend .alert-secondary;
+  @extend .radius;
+}
+  
+.alert-secondary-round{
+  @extend .alert-secondary;
+  @extend .round;
+}
+
+.alert-success{
+  @extend .alert-box;
+  background-color: $success-background;
+  border-color: $success-dark;
+  color: $success-darker;
+  @include letterpress;
+}
+
+.alert-success-radius{
+  @extend .alert-success;
+  @extend .radius;
+}
+  
+.alert-success-round{
+  @extend .alert-success;
+  @extend .round;
+}
+  
+.alert-warning{
+  @extend .alert-default;
+  background-color: $warning-background;
+  border-color: $warning-dark;
+  color: $warning-darker;
+  @include letterpress;
+}
+  
+.alert-warning-radius{
+  @extend .alert-warning;
+  @extend .radius;
+}
+  
+.alert-warning-round{
+  @extend .alert-warning;
+  @extend .round;
+}
+  
+.alert-danger{
+  @extend .alert-box;
+  background-color: $alert-background;
+  border-color: $alert-dark;
+  color: $alert-darker;
+  @include letterpress;
+}
+  
+.alert-danger-radius{
+  @extend .alert-danger;
+  @extend .radius;
+}
+  
+.alert-danger-round{
+  @extend .alert-danger;
+  @extend .round;
+}
