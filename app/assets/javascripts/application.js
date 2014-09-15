@@ -10,11 +10,12 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require modernizr
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require fastclick
 //= require foundation
-//= require reftagger
 //= require responsive-menu
-//= require modernizr
-$(document).foundation();
+//= require reftagger
+//= require pnc

@@ -1,38 +1,169 @@
 <div class="entry-content" itemprop="text">
-  <p>Notes of changes that have been made.</p>
-  <ol>
-    <li>Parallax Pro Blue has been modified to be &#8220;Pointe North&#8221; blue <span class="pnc_blue">#003592</span></li>
-    <li>This is a sample button. I&#8217;ve added a rounded corner for now, just an idea.<p><a class="button-p" href="/home">Homepage</a></p></li>
-    <li>
-      <p>Sample SoundCloud Code (Note: Pointe North <span class="pnc_green">green</span> is the accent color)</p>
+
+  <h3>Colors</h3>
+  <p>Parallax Pro Blue has been modified to be &#8220;Pointe North&#8221; blue <span class="pnc_blue">#003592</span></p>
+  <p>Parallax Pro Green has been modified to be &#8220;Pointe North&#8221; green <span class="pnc_green">#77B800</span></p>
+  <p>Classes have been created for each PNC color, the classes are pnc_green, pnc_blue, pnc_gray. Simply assign the class to something and it will turn that color.</p>
+<pre>
+.pnc_green: <span class="pnc_green">#77B800</span>
+.pnc_blue:  <span class="pnc_blue">#003592</span>
+.pnc_gray:  <span class="pnc_gray">#A5ACB0</span>
+</pre>
+  <br />
+  <h3>Widgets and Things</h3>
+  <h4>Buttons</h4>
+  <p>
+    This is a sample button. I&#8217;ve added a rounded corner for now, just an idea. The code below is how you would create a button in a post or page.
+  </p>
+  <p>
+    <a class="button-p" href="/home">Homepage</a>
+  </p>
+<pre>
+&lt;a href="link_to_somewhare" class="button-p">Link Text&lt;/a&gt;
+</pre>
+
+  <h4>Alerts</h4>
+  <div data-alert class='alert-success'>
+    This is a sample success alert.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-success-radius'>
+    This is a sample success alert with rounded corners.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-success-round'>
+    This is a sample success alert with rounded.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-warning'>
+    This is a sample warning alert.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-warning-radius'>
+    This is a sample warning alert with rounded corners.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-warning-round'>
+    This is a sample primary alert with rounded.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-danger'>
+    This is a sample danger alert.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-danger-radius'>
+    This is a sample danger alert with rounded corners.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-danger-round'>
+    This is a sample primary alert with rounded.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-default'>
+    This is a sample primary alert.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-default-radius'>
+    This is a sample primary alert with rounded corners.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-default-round'>
+    This is a sample primary alert with rounded.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-info'>
+    This is a sample info alert.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-info-radius'>
+    This is a sample info alert with rounded corners.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-info-round'>
+    This is a sample info alert with rounded.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-secondary'>
+    This is a sample secondary alert.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-secondary-radius'>
+    This is a sample secondary alert with rounded corners.<a href="" class="close">&times;</a>
+  </div>
+  <div data-alert class='alert-secondary-round'>
+    This is a sample secondary alert with rounded.<a href="" class="close">&times;</a>
+  </div>
+  
+  <h4>Tooltips</h4>
+  <p>This is a <span data-tooltip aria-haspopup="true" class="has-tip" title="Tooltips are awesome, you should totally use them!">bottom tooltip</span> that all you need to do is hover over to display the tip.</p>
+  <p>This is a <span data-tooltip aria-haspopup="true" class="has-tip tip-top" title="Tooltips are awesome, you should totally use them!">top tooltip</span> that all you need to do is hover over to display the tip.</p>
+  <p>This is a <span data-tooltip aria-haspopup="true" class="has-tip tip-left" title="Tooltips are awesome, you should totally use them!">left tooltip</span> that all you need to do is hover over to display the tip.</p>
+  <p>This is a <span data-tooltip aria-haspopup="true" class="has-tip tip-right" title="Tooltips are awesome, you should totally use them!">right tooltip</span> that all you need to do is hover over to display the tip.</p>
+  <p>This is a <span data-tooltip aria-haspopup="true" class="has-tip tip-top radius" title="Tooltips are awesome, you should totally use them!">rounded tooltip</span> that all you need to do is hover over to display the tip.</p>
+  <p>This is a <span data-tooltip aria-haspopup="true" class="has-tip tip-top round" title="Tooltips are awesome, you should totally use them!">round tooltip</span> that all you need to do is hover over to display the tip.</p>
+  
+  <h4>Forms</h4>
+  <form>
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Input Label
+          <input type="text" placeholder="large-12.columns" />
+        </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-4 columns">
+        <label>Input Label
+          <input type="text" placeholder="large-4.columns" />
+        </label>
+      </div>
+      <div class="large-4 columns">
+        <label>Input Label
+          <input type="text" placeholder="large-4.columns" />
+        </label>
+      </div>
+      <div class="large-4 columns">
+        <div class="row collapse">
+          <label>Input Label</label>
+          <div class="small-9 columns">
+            <input type="text" placeholder="small-9.columns" />
+          </div>
+          <div class="small-3 columns">
+            <span class="postfix">.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Select Box
+          <select>
+            <option value="husker">Husker</option>
+            <option value="starbuck">Starbuck</option>
+            <option value="hotdog">Hot Dog</option>
+            <option value="apollo">Apollo</option>
+          </select> </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <label>Choose Your Favorite</label>
+        <input type="radio" name="pokemon" value="Red" id="pokemonRed">
+        <label for="pokemonRed">Red</label>
+        <input type="radio" name="pokemon" value="Blue" id="pokemonBlue">
+        <label for="pokemonBlue">Blue</label>
+      </div>
+      <div class="large-6 columns">
+        <label>Check these out</label>
+        <input id="checkbox1" type="checkbox">
+        <label for="checkbox1">Checkbox 1</label>
+        <input id="checkbox2" type="checkbox">
+        <label for="checkbox2">Checkbox 2</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Textarea Label
+          <textarea placeholder="small-12.columns"></textarea> 
+        </label>
+      </div>
+    </div>
+  </form>
+
+  <h3>SoundCloud</h3>
+  <p>
+    Sample SoundCloud Code (Note: Pointe North <span class="pnc_green">green</span> is the accent color). Note that for each series a new SoundCloud playlist should be made so that it can be specified in the URL of the player so only the sermons for that given series get pulled into the player.
+  </p>
 <pre>
 &lt;iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/pointe-north&amp;color=77b800&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"&gt;&lt;/iframe&gt;
 </pre>
-    </li>
-    <li> 
-      <p>PNC Color Codes added to classes of pnc_green, pnc_blue, pnc_gray</p>
-<pre>
-Green: <span class="pnc_green">#77B800</span>
-Blue:  <span class="pnc_blue">#003592</span>
-Gray:  <span class="pnc_gray">#A5ACB0</span>
-</pre>
-    </li>
-    <li>
-      <p>CSS Converted To SASS For Functions and Variables. This is to be able to manage it better. You don't have to worry about this.</p>
-<pre>
-$pnc-blue;
-$pnc-green;
-$pnc-gray;
-</pre>
-    </li>
-    <li>
-      <p>Changed colors of header and footer to PNC Gray. Added gradient to header and footer. 
-        Gave header and footer minor transparency for see through effect. Text shadow on footer 
-        to accent white text rather than blue.
-      </p>
-    </li>
-    <li>
-      <p>Hardcoded <a href="http://reftagger.com/" target="_blank">RefTagger</a> into the theme. Hover over the Scripture >> John 3:16</p>
-    </li>
-  </ol>
+  <h3>RefTagger</h3>
+  <p>
+    Hardcoded <a href="http://reftagger.com/" target="_blank">RefTagger</a> into the theme. Hover over the Scripture >> John 3:16
+  </p>
+
 </div>
