@@ -3,3 +3,8 @@
 .button-p{
   @include border-radius($big-border-radius);
 }
+
+.full-width-photo {
+  padding: 100px 0px 100px 0px;
+  box-shadow: inset 1px 0px 7px rgba(0, 0, 0, 0.9);
+}

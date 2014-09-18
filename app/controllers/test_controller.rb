@@ -1,5 +1,9 @@
 class TestController < ApplicationController
-  def index
+  def test
+    
+  end
+  
+  def privacy
     
   end
 end

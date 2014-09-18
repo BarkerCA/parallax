@@ -9,8 +9,16 @@
               <div class="widget-wrap">
                 <nav class="nav-header" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
                   <ul id="menu-main-menu" class="menu genesis-nav-menu">
-                    <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="/">Home</a></li>
-                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item menu-item-23"><a href="/test">Test</a></li>
+                    <li id="menu-item-home" class="menu-item menu-item-type-post_type menu-item-object-page<%= active_menu_item('home') %>"><a href="/">Home</a></li>
+                    <li id="menu-item-test" class="menu-item menu-item-type-post_type menu-item-object-page<%= active_menu_item('test') %>"><a href="/test">Test Page</a>
+                      <ul class="sub-menu">
+                        <li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89"><a href="http://www.pointenorth.org">Test Link 1</a></li>
+                        <li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a href="http://www.pointenorth.org">Test Link 2</a></li>
+                      </ul>
+                    </li>
+                    <li id="menu-item-online-giving" class="menu-item menu-item-type-post_type menu-item-object-page<%= active_menu_item('giving') %>"><a href="/giving">Onine Giving</a></li>
+                    <li id="menu-item-sermon" class="menu-item menu-item-type-post_type menu-item-object-page<%= active_menu_item('sermons') %>"><a href="/sermons">Watch A Sermon</a></li>
+                    <li id="menu-item-test" class="menu-item menu-item-type-post_type menu-item-object-page<%= active_menu_item('volunteer') %>"><a href="/volunteer">Get Involved</a></li>
                   </ul>
                 </nav>
               </div>

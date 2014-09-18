@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <title>Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true, debug: false %>
     <style type='text/css'>
-      .home-section-1 { background-image: url(http://pnc.skar-lett.com/wp-content/uploads/2014/09/CalPraying.jpg); }.home-section-3 { background-image: url(http://pnc.skar-lett.com/wp-content/uploads/2014/09/Prayer.jpg); }.home-section-5 { background-image: url(http://pnc.skar-lett.com/wp-content/themes/parallax-pro/images/bg-5.jpg); }
+      .home-section-1 { background-image: url(http://pnc.skar-lett.com/wp-content/uploads/2014/09/Hand.jpg); }.home-section-3 { background-image: url(http://pnc.skar-lett.com/wp-content/uploads/2014/09/Amy_Haley.jpg); }.home-section-5 { background-image: url(http://pnc.skar-lett.com/wp-content/themes/parallax-pro/images/bg-5.jpg); }.home-section-7 { background-image: url(http://pnc.skar-lett.com/wp-content/themes/pnc-parallax/images/bg-7.jpg); }
     </style>
     <link rel='stylesheet' id='dashicons-css'  href='http://pnc.skar-lett.com/wp-includes/css/dashicons.min.css?ver=4.0' type='text/css' media='all' />
     <link rel='stylesheet' id='parallax-google-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%7CSorts+Mill+Goudy&#038;ver=1.2' type='text/css' media='all' />
@@ -16,7 +16,15 @@
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <%= csrf_meta_tags %>
   </head>
+  
+  <% if params[:controller] == "home" %>
+  <% # For parallax homepage %>
+  <body class="home parallax-home page page-id-20 page-template-default custom-header header-image full-width-content parallax-pro-blue" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+  <% else %>
+  <% # For all other pages %>
   <body class="page page-id-20 page-template-default custom-header header-image full-width-content parallax-pro-blue" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+  <% end %>
+  
     <div class="site-container">
 
       <%= render "layouts/header" %>

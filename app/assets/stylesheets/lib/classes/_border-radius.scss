@@ -1,0 +1,19 @@
+.border-radius-small{
+  @include border-radius($small-border-radius);
+}
+
+.border-radius-default{
+  @include border-radius($small-border-radius);
+}
+
+.border-radius-big{
+  @include border-radius($big-border-radius);
+}
+
+.border-radius-bigger{
+  @include border-radius($bigger-border-radius);
+}
+
+.border-radius-biggest{
+  @include border-radius($biggest-border-radius);
+}

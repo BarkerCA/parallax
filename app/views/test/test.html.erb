@@ -1,6 +1,6 @@
 <div class="entry-content" itemprop="text">
 
-  <h3>Colors</h3>
+  <h3>Color</h3>
   <p>Parallax Pro Blue has been modified to be &#8220;Pointe North&#8221; blue <span class="pnc_blue">#003592</span></p>
   <p>Parallax Pro Green has been modified to be &#8220;Pointe North&#8221; green <span class="pnc_green">#77B800</span></p>
   <p>Classes have been created for each PNC color, the classes are pnc_green, pnc_blue, pnc_gray. Simply assign the class to something and it will turn that color.</p>
@@ -16,7 +16,7 @@
     This is a sample button. I&#8217;ve added a rounded corner for now, just an idea. The code below is how you would create a button in a post or page.
   </p>
   <p>
-    <a class="button-p" href="/home">Homepage</a>
+    [pnc_link_button href="/" text="Homepage"]
   </p>
 <pre>
 &lt;a href="link_to_somewhare" class="button-p">Link Text&lt;/a&gt;
@@ -165,5 +165,56 @@
   <p>
     Hardcoded <a href="http://reftagger.com/" target="_blank">RefTagger</a> into the theme. Hover over the Scripture >> John 3:16
   </p>
+
+<h3>PNC Shortcodes</h3>
+<h4>&#091;pnc_link_button&#093;</h4>
+<p><strong>Parameters:</strong> class=""(optional), href="", target=""(optional), text=""</p>
+<p><strong>class:</strong> What class to give the link button, default: button-p</p>
+<p><strong>href:</strong> Location to send user, example: /test would go to the test page</p>
+<p><strong>target:</strong> Frame to open the link in, default: _self, NOTE: use _blank to open in a new window</p>
+<p><strong>text:</strong> This is the text of the link button</p>
+<h5>Example Usage</h5>
+<pre>
+&#091;pnc_link_button class="button-p" href="/" target="_blank" text="Example Button" &#093;
+</pre>
+<h5>Rendering</h5>
+[pnc_link_button class="button-p" href="/" target="_blank" text="Example Button"];
+
+<h4>&#091;pnc_alert&#093;</h4>
+<p><strong>Parameters:</strong> class="", text=""</p>
+<p><strong>class:</strong> What class to give the alert, default: default</p>
+<p><strong>class choices:</strong> success, success-radius, success-round, warning, warning-radius, warning-round, danger, danger-radius, danger-round, default, default-radius, default-round, info, info-radius, info-round, secondary, secondary-radius, secondary-round</p>
+<p><strong>text:</strong> This is the text of the alert</p>
+<h5>Example Usage</h5>
+<pre>
+&#091;pnc_alert class="secondary-radius" text="Example Alert Secondary Radius" &#093;
+</pre>
+<h5>Rendering</h5>
+[pnc_alert class="secondary-radius" text="Example Alert Secondary Radius"]
+
+<h3>Content Boxes</h3>
+<div class="content-box-blue border-radius-big">
+  Sample blue content box.
+</div>
+
+<div class="content-box-gray border-radius-bigger">
+  Sample gray content box.
+</div>
+
+<div class="content-box-green border-radius-biggest">
+  Sample green content box.
+</div>
+
+<div class="content-box-purple">
+  Sample purple content box.
+</div>
+
+<div class="content-box-red">
+  Sample red content box.
+</div>
+
+<div class="content-box-yellow">
+  Sample yellow content box.
+</div>
 
 </div>

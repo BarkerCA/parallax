@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require fastclick
 //= require foundation
+//= require parallax
 //= require responsive-menu
 //= require reftagger
 //= require pnc

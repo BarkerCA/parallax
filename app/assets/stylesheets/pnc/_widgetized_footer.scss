@@ -1,0 +1,98 @@
+/* Widgets in Genesis #footer Area
+------------------------------------------------------------ */
+
+/* Space around the whole container */
+#gwfoot-footer-one-area,
+#gwfoot-footer-two-area,
+#gwfoot-footer-disclaimer-area {
+  padding: 5px;
+}
+
+/* Float Footer Area #1 + #2 */
+#footer #gwfoot-footer-one-area,
+#footer #gwfoot-footer-two-area {
+  float: left;
+}
+
+/* Set widths */
+.gwfoot-footer-one-full-width,
+.gwfoot-footer-two-full-width {
+  max-width: 100%;
+}
+
+.gwfoot-footer-one-one-third {
+  width: 32%;
+}
+
+.gwfoot-footer-two-two-thirds {
+  width: 65%;
+}
+
+.gwfoot-footer-one-one-third,
+.gwfoot-footer-two-two-thirds {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer Disclaimer */
+.gwfoot-footer-disclaimer-content {
+  font-size: 0.75em;
+  line-height: 1.5em;
+  margin: 20px 20px 10px;
+}
+
+#gwfoot-footer-disclaimer-area .widget-area h4 {
+  font-size: 1.0em;
+}
+
+/* More bottom space after each widget */
+#footer div.widget-area {
+  margin-bottom: 10px;
+}
+
+
+#gwfoot-footer-disclaimer-area{
+  background: #333;
+  color: $grayBattleship;
+  margin: 0px 0px 0px 0px!important;
+  padding: 25px 0px 45px 0px!important;
+  box-shadow:inset 1px 0px 7px rgba(0,0,0,0.9);
+  
+  .row{
+    @include single-text-shadow(1px, 1px, 1px, null, rgba(0,0,0,0.7));
+    
+    .columns{
+      margin-top: 20px;  
+    }
+    
+    p{
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    a{
+      color: $grayBattleship;
+    }
+    
+    a:hover{
+      color: $white;
+    }
+    
+    img.social{
+      width: 19%;
+      opacity: 0.5;
+    }
+    
+    img.social:hover{
+      opacity: 1.0;
+    }
+    
+    #youversion{
+      width: 79%;
+    }
+    
+    #bible{
+      width: 19%;
+    }
+  }
+}

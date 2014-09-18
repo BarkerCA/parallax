@@ -866,6 +866,7 @@ Site Header
   height: 70px;
   text-indent: -9999px;
   max-width: 360px;
+  margin-top: 10px;
 }
 
 .site-description {
@@ -915,7 +916,8 @@ Site Navigation
 
 .genesis-nav-menu .menu-item {
   display: inline-block;
-  text-align: left;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .genesis-nav-menu li li {
@@ -927,6 +929,7 @@ Site Navigation
   display: block;
   font-family: Montserrat, sans-serif;
   padding: 27px 20px;
+  max-width: 135px;
 }
 
 .genesis-nav-menu a:hover,
@@ -1009,7 +1012,11 @@ Site Navigation
 --------------------------------------------- */
 
 .site-header .sub-menu {
-  background-color: #000;
+  //background-color: #000;
+  background-color: rgba($pnc_gray, 0.7);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  border-bottom-left-radius: $big-border-radius;
+  border-bottom-right-radius: $big-border-radius;
 }
 
 /* Primary Navigation
@@ -1022,7 +1029,8 @@ Site Navigation
 }
 
 .nav-primary .sub-menu {
-  background-color: #000;
+  //background-color: #000;
+  background-color: rgba($pnc_gray, 0.5);
 }
 
 /* Secondary Navigation
@@ -1111,7 +1119,8 @@ Content Area
 .home-section-1,
 .home-section-3,
 .home-section-5,
-.home-section-7 {
+.home-section-7,
+.full-width-photo {
   background-attachment: fixed;
   background-color: #fff;
   background-position: 50% 0px;
@@ -1392,7 +1401,7 @@ p.entry-meta {
   background-color: #e2e2f9;
   border: 1px solid #bebde9;
 }
- 
+
 .content-box-red {
   background-color: #f9dbdb;
   border: 1px solid #e9b3b3;
@@ -1737,6 +1746,10 @@ Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1140px) {
+  
+  .genesis-nav-menu a {
+    max-width: 135px;
+  }
 
   .site-inner,
   .wrap {
@@ -1750,7 +1763,8 @@ Media Queries
   .home-section-1,
   .home-section-3,
   .home-section-5,
-  .home-section-7 {
+  .home-section-7,
+  .full-width-photo {
     background-attachment: scroll;
     background-position: top;
     -webkit-background-size: auto;
@@ -1769,6 +1783,10 @@ Media Queries
 }
 
 @media only screen and (max-width: 960px) {
+  
+  .genesis-nav-menu a {
+    max-width: 135px;
+  }
 
   .site-inner,
   .wrap {
@@ -1857,6 +1875,10 @@ Media Queries
 }
 
 @media only screen and (max-width: 768px) {
+  
+  .genesis-nav-menu a {
+    max-width: 100%;
+  }
 
   .site-inner,
   .wrap {
@@ -1996,49 +2018,4 @@ Media Queries
     font-size: 22px;
   }
 
-}
-
-#gwfoot-footer-disclaimer-area{
-  background: #333;
-  color: $grayBattleship;
-  padding: 25px 0px 45px 0px;
-  box-shadow:inset 1px 0px 7px rgba(0,0,0,0.9);
-  
-  .row{
-    @include single-text-shadow(1px, 1px, 1px, null, rgba(0,0,0,0.7));
-    
-    .columns{
-      margin-top: 20px;  
-    }
-    
-    p{
-      margin: 0px 0px 0px 0px;
-      padding: 0px 0px 0px 0px;
-    }
-    
-    a{
-      color: $grayBattleship;
-    }
-    
-    a:hover{
-      color: $white;
-    }
-    
-    img.social{
-      width: 19%;
-      opacity: 0.5;
-    }
-    
-    img.social:hover{
-      opacity: 1.0;
-    }
-    
-    #youversion{
-      width: 79%;
-    }
-    
-    #bible{
-      width: 19%;
-    }
-  }
 }
