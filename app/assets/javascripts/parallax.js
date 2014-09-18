@@ -8,6 +8,7 @@ jQuery(function( $ ){
 
     $(".home-section-1").css("backgroundPosition", "0px " + -(scrolltop/6) + "px");
 
+
     if( scrollwindow > $(".home-section-3").offset().top ) {
 
       // Enable parallax effect
