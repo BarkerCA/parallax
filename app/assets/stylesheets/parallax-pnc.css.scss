@@ -460,11 +460,11 @@ Structure and Layout
 
 .site-inner {
   clear: both;
-  margin-top: 170px;
+  margin-top: 87px;
 }
 
 .parallax-home .site-inner {
-  margin-top: 70px;
+  margin-top: 87px;
   max-width: 100%;
 }
 
@@ -1120,7 +1120,7 @@ Content Area
 .home-section-3,
 .home-section-5,
 .home-section-7,
-.full-width-photo {
+.parallax-photo {
   background-attachment: fixed;
   background-color: #fff;
   background-position: 50% 0px;
@@ -1269,6 +1269,7 @@ p.entry-meta {
 }
 
 .entry-header {
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -1764,7 +1765,7 @@ Media Queries
   .home-section-3,
   .home-section-5,
   .home-section-7,
-  .full-width-photo {
+  .parallax-photo {
     background-attachment: scroll;
     background-position: top;
     -webkit-background-size: auto;

@@ -19,4 +19,3 @@
 //= require responsive-menu
 //= require reftagger
 //= require pnc
-//= require parallax-photo

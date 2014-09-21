@@ -1,14 +1,15 @@
 <!-- Put the URL to the parallax photo inside the div element below -->
 <div id="parallax-background-image" style="display: none;">
+  <ptitle>Sample Title</ptitle>
   <url>http://pnc.skar-lett.com/wp-content/uploads/2014/09/CalPraying.jpg</url>
 </div>
 
 <!-- BEGIN HTML Construct for parallax photo -->
-<div id="parallax-photo" class="home-odd full-width-photo widget-area">
+<div id="parallax-photo" class="home-odd parallax-photo widget-area">
   <div class="wrap">
     <section id="text-2" class="widget widget_text">
       <div class="widget-wrap">
-        <h4 class="widget-title widgettitle">Online Giving!</h4>
+        <h4 id="parallax-title" class="widget-title widgettitle">&nbsp;</h4>
       </div>
     </section>
   </div>
@@ -97,3 +98,27 @@
 
   </div>
 </div>
+
+<script type="text/javascript">
+  $(document).on('page:change', function() {
+    $('body').addClass('parallax-home');
+    if ($('#parallax-photo').hasClass('parallax-photo')) {
+  
+      var background = $('#parallax-background-image url').html();
+      var title = $('#parallax-background-image ptitle').html();
+      $('#parallax-title').html(title);
+      $('.parallax-photo').css({'background-image': 'url(' + background + ')'}).show();
+  
+      // Enable parallax and fade effects on homepage sections
+      $(window).scroll(function(){
+    
+        scrolltop = $(window).scrollTop();
+        scrollwindow = scrolltop + $(window).height();
+    
+        // Added support for full width parallax photos in regular pages.
+        $(".parallax-photo").css("backgroundPosition", "50% " + -(scrolltop/6) + "px");
+      });
+  
+    }
+  });
+</script>

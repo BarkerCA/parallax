@@ -1,0 +1,297 @@
+# This German Language File: Copyright (C) 2012-2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Genesis Widgetized Footer plugin package.
+#
+# Weitere deutsche Sprachdateien fuer Genesis Framework, Genesis Child Themes und Genesis Plugins
+# sowie WordPress Plugins und Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Widgetized Footer v1.4.0\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2012-04-24 18:40+0200\n"
+"PO-Revision-Date: 2013-05-08 22:24+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ genesis-widgetized-footer
+#. translators: plugin header field 'Name'
+#: genesis-widgetized-footer.php:0 genesis-widgetized-footer.php:102
+#: genesis-widgetized-footer.php:107 includes/gwfoot-admin.php:172
+#: includes/gwfoot-admin.php:210
+msgid "Genesis Widgetized Footer"
+msgstr "Genesis Widgets für Fußzeile"
+
+# @ genesis-widgetized-footer
+#. translators: plugin header field 'PluginURI'
+#: genesis-widgetized-footer.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/genesis-widgetized-footer/"
+msgstr "http://genesisthemes.de/plugins/genesis-widgetized-footer/"
+
+# @ genesis-widgetized-footer
+#. translators: plugin header field 'Description'
+#: genesis-widgetized-footer.php:0
+msgid ""
+"Finally, use widgets to customize your Footer area (a.k.a 'Return to Top' "
+"plus 'Copyright/Credits') in Genesis Framework and Child Themes."
+msgstr ""
+"Endlich: Mit Widgets den Fußzeilen-Bereich (a.k.a. 'Nach oben' bzw. "
+"'Copyright/Credits') bequem anpassen und pflegen. Dieses Plugin funktioniert "
+"nur mit dem Genesis Framework und Child Themes."
+
+# @ genesis-widgetized-footer
+#. translators: plugin header field 'Author'
+#: genesis-widgetized-footer.php:0
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+# @ genesis-widgetized-footer
+#. translators: plugin header field 'AuthorURI'
+#: genesis-widgetized-footer.php:0
+msgid "http://deckerweb.de/"
+msgstr "http://deckerweb.de/"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:64
+msgid "Go to the Widgets settings page"
+msgstr "Zur Widgets-Einstellungen Seite ..."
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:65
+msgid "Widgets"
+msgstr "Widgets"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:100 includes/gwfoot-admin.php:246
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:102 includes/gwfoot-admin.php:246
+msgid "Support"
+msgstr "Hilfe und Unterstützung (Support)"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:108 includes/gwfoot-admin.php:246
+msgid "Donate"
+msgstr "Spenden"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:215 includes/gwfoot-widget-areas.php:48
+msgid "Footer Area #1"
+msgstr "Fußzeile Bereich #1"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-widget-areas.php:54
+#, php-format
+msgid "This is the first widget area (%s) within the Genesis Footer."
+msgstr ""
+"Dies ist der erste Fußzeilen-Bereich (%s), innerhalb der Genesis Fußzeile "
+"(Footer)."
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:216 includes/gwfoot-widget-areas.php:71
+msgid "Footer Area #2"
+msgstr "Fußzeile Bereich #2"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:217 includes/gwfoot-widget-areas.php:94
+msgid "Footer Disclaimer"
+msgstr "Fußzeile Hinweise"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-widget-areas.php:100
+msgid "This is Footer Disclaimer widget area within the Genesis Footer."
+msgstr ""
+"Dies ist der Fußzeilen-Hinweis-Bereich, innerhalb der Genesis Fußzeile "
+"(Footer)."
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-widget-areas.php:77
+#, php-format
+msgid "This is the second widget area (%s) within the Genesis Footer."
+msgstr ""
+"Dies ist der zweite Fußzeilen-Bereich (%s), innerhalb der Genesis Fußzeile "
+"(Footer)."
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:213
+msgid ""
+"Added Widget areas by the plugin - only displayed if having active widgets "
+"placed in:"
+msgstr ""
+"Vom Plugin hinzugefügte Widget-Bereiche - welche nur angezeigt werden, wenn "
+"sich aktive Widgets darin befinden:"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:223
+msgid ""
+"The Genesis Footer Shortcodes plus regular WordPress Shortcodes are "
+"supported in all three widget areas."
+msgstr ""
+"Die Genesis Fußzeilen-Shortcodes plus reguläre WordPress Shortcodes werden "
+"in allen drei Widget-Bereichen unterstützt."
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:223
+msgid "Genesis Shortcode Reference here..."
+msgstr "Genesis Shortcode-Referenz hier..."
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:245
+msgid "Important plugin links:"
+msgstr "Wichtige Plugin-Links:"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:106 includes/gwfoot-admin.php:246
+msgid "Translations"
+msgstr "Übersetzungen"
+
+# @ genesis-widgetized-footer
+#: genesis-widgetized-footer.php:107 includes/gwfoot-admin.php:210
+msgid "Plugin"
+msgstr "Plugin"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:246
+msgid "Plugin website"
+msgstr "Plugin-Webseite"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:266
+msgid "More about the plugin author"
+msgstr "Mehr über den Plugin-Autor"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:267
+msgid "Social:"
+msgstr "Vernetzen:"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:104 includes/gwfoot-admin.php:200
+#: includes/gwfoot-admin.php:246
+msgid "Code Snippets for Customization"
+msgstr "Codeschnipsel zum Anpassen"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:104 includes/gwfoot-admin.php:246
+msgid "Code Snippets"
+msgstr "Codeschnipsel"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:200
+#, php-format
+msgid "optional, could be deactivated %svia constant%s"
+msgstr "optional, kann %svia Konstante%s deaktiviert werden"
+
+# @ genesis-widgetized-footer
+#: genesis-widgetized-footer.php:102
+#, php-format
+msgid ""
+"Sorry, you cannot activate the %1$s plugin unless you have installed the "
+"%2$sGenesis Framework%3$s."
+msgstr ""
+"Hinweis: Das Plugin '%1$s' kann <em>nicht</em> aktiviert werden, solange die "
+"neueste Version des %2$sGenesis Frameworks%3$s nicht installiert ist."
+
+# @ genesis-widgetized-footer
+#. translators: plugin header field 'Version'
+#: genesis-widgetized-footer.php:0
+msgid "1.4.0"
+msgstr "1.4.0"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:240 includes/gwfoot-shortcodes.php:146
+msgid "Latest update date:"
+msgstr "Zuletzt aktualisiert:"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:203
+#, php-format
+msgid "as set in %s"
+msgstr "wie festgelegt in den %s"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:204
+msgid "General Settings"
+msgstr "Allgemeinen Einstellungen"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:228
+msgid "Provided Shortcodes by the plugin:"
+msgstr "Verfügbare Shortcodes des Plugins:"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:231 includes/gwfoot-admin.php:236
+msgid "Supporting the following parameters"
+msgstr "Unterstützt werden die folgenden Parameter"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:232 includes/gwfoot-admin.php:237
+#: includes/gwfoot-admin.php:238 includes/gwfoot-admin.php:239
+#: includes/gwfoot-admin.php:240 includes/gwfoot-admin.php:241
+#, php-format
+msgid "Default: %s"
+msgstr "Standard: %s"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:232 includes/gwfoot-admin.php:239
+#: includes/gwfoot-admin.php:241
+msgid "none, empty"
+msgstr "nichts, leer"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:237
+#, php-format
+msgid "Date format, %s"
+msgstr "Datumsformat, %s"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:237
+msgid "PHP Date"
+msgstr "PHP Date"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:238
+msgid "HTML wrapper tag"
+msgstr "HTML-Wrapper-Tag"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:239
+msgid "Can be a custom class, added to the wrapper tag"
+msgstr ""
+"Optionale, benutzerdefinierte CSS-Klasse sein, welche dem umschließenden "
+"Wrapper hinzugefügt wird"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:240
+msgid "Text string before the date value"
+msgstr "Text vor dem Datumswert"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:241
+msgid "Optional text string after the date value"
+msgstr "Optionaler Text nach dem Datumswert"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:215 includes/gwfoot-admin.php:216
+#: includes/gwfoot-admin.php:217
+#, php-format
+msgid "ID: %s"
+msgstr "ID: %s"
+
+# @ genesis-widgetized-footer
+#: includes/gwfoot-admin.php:232
+msgid "ID of the Widget area (Sidebar; see above)"
+msgstr "ID eines Widget-Bereiches (Sidebar; siehe oben)"

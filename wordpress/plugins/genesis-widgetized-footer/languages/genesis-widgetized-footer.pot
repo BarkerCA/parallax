@@ -1,0 +1,197 @@
+# This file is distributed under the same license as the Genesis Widgetized Footer package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-05-08 20:07:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis Widgetized Footer\n"
+
+#: genesis-widgetized-footer.php:0
+msgid "1.4.0"
+msgstr ""
+
+#: includes/gwfoot-admin.php:240 includes/gwfoot-shortcodes.php:146
+msgid "Latest update date:"
+msgstr ""
+
+#: includes/gwfoot-admin.php:203
+msgid "as set in %s"
+msgstr ""
+
+#: includes/gwfoot-admin.php:204
+msgid "General Settings"
+msgstr ""
+
+#: includes/gwfoot-admin.php:228
+msgid "Provided Shortcodes by the plugin:"
+msgstr ""
+
+#: includes/gwfoot-admin.php:231 includes/gwfoot-admin.php:236
+msgid "Supporting the following parameters"
+msgstr ""
+
+#: includes/gwfoot-admin.php:232 includes/gwfoot-admin.php:237
+#: includes/gwfoot-admin.php:238 includes/gwfoot-admin.php:239
+#: includes/gwfoot-admin.php:240 includes/gwfoot-admin.php:241
+msgid "Default: %s"
+msgstr ""
+
+#: includes/gwfoot-admin.php:232 includes/gwfoot-admin.php:239
+#: includes/gwfoot-admin.php:241
+msgid "none, empty"
+msgstr ""
+
+#: includes/gwfoot-admin.php:237
+msgid "Date format, %s"
+msgstr ""
+
+#: includes/gwfoot-admin.php:237
+msgid "PHP Date"
+msgstr ""
+
+#: includes/gwfoot-admin.php:238
+msgid "HTML wrapper tag"
+msgstr ""
+
+#: includes/gwfoot-admin.php:239
+msgid "Can be a custom class, added to the wrapper tag"
+msgstr ""
+
+#: includes/gwfoot-admin.php:240
+msgid "Text string before the date value"
+msgstr ""
+
+#: includes/gwfoot-admin.php:241
+msgid "Optional text string after the date value"
+msgstr ""
+
+#: includes/gwfoot-admin.php:215 includes/gwfoot-admin.php:216
+#: includes/gwfoot-admin.php:217
+msgid "ID: %s"
+msgstr ""
+
+#: includes/gwfoot-admin.php:232
+msgid "ID of the Widget area (Sidebar; see above)"
+msgstr ""
+
+#: genesis-widgetized-footer.php:102
+msgid "Sorry, you cannot activate the %1$s plugin unless you have installed the %2$sGenesis Framework%3$s."
+msgstr ""
+
+#: includes/gwfoot-admin.php:104 includes/gwfoot-admin.php:200
+#: includes/gwfoot-admin.php:246
+msgid "Code Snippets for Customization"
+msgstr ""
+
+#: includes/gwfoot-admin.php:104 includes/gwfoot-admin.php:246
+msgid "Code Snippets"
+msgstr ""
+
+#: includes/gwfoot-admin.php:200
+msgid "optional, could be deactivated %svia constant%s"
+msgstr ""
+
+#: includes/gwfoot-admin.php:106 includes/gwfoot-admin.php:246
+msgid "Translations"
+msgstr ""
+
+#: genesis-widgetized-footer.php:107 includes/gwfoot-admin.php:210
+msgid "Plugin"
+msgstr ""
+
+#: includes/gwfoot-admin.php:246
+msgid "Plugin website"
+msgstr ""
+
+#: includes/gwfoot-admin.php:266
+msgid "More about the plugin author"
+msgstr ""
+
+#: includes/gwfoot-admin.php:267
+msgid "Social:"
+msgstr ""
+
+#: genesis-widgetized-footer.php:0 genesis-widgetized-footer.php:102
+#: genesis-widgetized-footer.php:107 includes/gwfoot-admin.php:172
+#: includes/gwfoot-admin.php:210
+msgid "Genesis Widgetized Footer"
+msgstr ""
+
+#: genesis-widgetized-footer.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/genesis-widgetized-footer/"
+msgstr ""
+
+#: genesis-widgetized-footer.php:0
+msgid "Finally, use widgets to customize your Footer area (a.k.a 'Return to Top' plus 'Copyright/Credits') in Genesis Framework and Child Themes."
+msgstr ""
+
+#: genesis-widgetized-footer.php:0
+msgid "David Decker - DECKERWEB"
+msgstr ""
+
+#: genesis-widgetized-footer.php:0
+msgid "http://deckerweb.de/"
+msgstr ""
+
+#: includes/gwfoot-admin.php:64
+msgid "Go to the Widgets settings page"
+msgstr ""
+
+#: includes/gwfoot-admin.php:65
+msgid "Widgets"
+msgstr ""
+
+#: includes/gwfoot-admin.php:100 includes/gwfoot-admin.php:246
+msgid "FAQ"
+msgstr ""
+
+#: includes/gwfoot-admin.php:102 includes/gwfoot-admin.php:246
+msgid "Support"
+msgstr ""
+
+#: includes/gwfoot-admin.php:108 includes/gwfoot-admin.php:246
+msgid "Donate"
+msgstr ""
+
+#: includes/gwfoot-admin.php:215 includes/gwfoot-widget-areas.php:48
+msgid "Footer Area #1"
+msgstr ""
+
+#: includes/gwfoot-widget-areas.php:54
+msgid "This is the first widget area (%s) within the Genesis Footer."
+msgstr ""
+
+#: includes/gwfoot-admin.php:216 includes/gwfoot-widget-areas.php:71
+msgid "Footer Area #2"
+msgstr ""
+
+#: includes/gwfoot-admin.php:217 includes/gwfoot-widget-areas.php:94
+msgid "Footer Disclaimer"
+msgstr ""
+
+#: includes/gwfoot-widget-areas.php:100
+msgid "This is Footer Disclaimer widget area within the Genesis Footer."
+msgstr ""
+
+#: includes/gwfoot-widget-areas.php:77
+msgid "This is the second widget area (%s) within the Genesis Footer."
+msgstr ""
+
+#: includes/gwfoot-admin.php:213
+msgid "Added Widget areas by the plugin - only displayed if having active widgets placed in:"
+msgstr ""
+
+#: includes/gwfoot-admin.php:223
+msgid "The Genesis Footer Shortcodes plus regular WordPress Shortcodes are supported in all three widget areas."
+msgstr ""
+
+#: includes/gwfoot-admin.php:223
+msgid "Genesis Shortcode Reference here..."
+msgstr ""
+
+#: includes/gwfoot-admin.php:245
+msgid "Important plugin links:"
+msgstr ""

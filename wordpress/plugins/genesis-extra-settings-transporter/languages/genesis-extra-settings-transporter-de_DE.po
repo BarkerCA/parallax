@@ -1,0 +1,466 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Genesis Extra Settings Transporter plugin package.
+#
+# Weitere deutsche Sprachdateien fuer Genesis Framework, Genesis Child Themes und Genesis Plugins
+# sowie WordPress Plugins und Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Extra Settings Transporter v1.2.0\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-01-25 14:11:30+0100\n"
+"PO-Revision-Date: 2013-03-22 01:54+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ genesis-extra-settings-transporter
+#. translators: plugin header field 'Author'
+#: genesis-extra-settings-transporter.php:0
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+#@ genesis-extra-settings-transporter
+#. translators: plugin header field 'AuthorURI'
+#: genesis-extra-settings-transporter.php:0
+msgid "http://deckerweb.de/"
+msgstr "http://deckerweb.de/"
+
+#@ genesis-extra-settings-transporter
+#: genesis-extra-settings-transporter.php:100
+#, php-format
+msgid "Sorry, you cannot activate the %1$s plugin unless you have installed the latest version of the %2$sGenesis Framework%3$s (at least %4$s)."
+msgstr "Hinweis: Das %1$s Plugin kann <em>nicht</em> aktiviert werden, solange nicht das %2$sGenesis Framework%3$s in der neuesten Version (mindestens %4$s) installiert ist."
+
+#@ genesis-extra-settings-transporter
+#: genesis-extra-settings-transporter.php:110
+#: includes/gest-admin-extras.php:148
+#: includes/gest-admin-extras.php:226
+#: includes/gest-admin-functions.php:37
+msgid "Plugin"
+msgstr "Plugin"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:59
+msgid "Genesis Simple Hooks"
+msgstr "Genesis Einfache Hooks"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:203
+#: includes/gest-admin-functions.php:71
+msgid "Genesis Simple Sidebars"
+msgstr "Genesis Einfache Sidebars"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:83
+msgid "Genesis Slider"
+msgstr "Genesis Slider"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:95
+msgid "Genesis Responsive Slider"
+msgstr "Genesis Responsiver Slider"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:107
+msgid "Genesis Simple Edits"
+msgstr "Genesis Einfache Änderungen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:123
+msgid "Genesis Layout Extras"
+msgstr "Genesis Layout-Extras"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:135
+msgid "Genesis Simple Comments"
+msgstr "Genesis Einfache Kommentare"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:147
+msgid "Genesis Simple Breadcrumbs"
+msgstr "Genesis Einfache Breadcrumbs"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:159
+msgid "Genesis Responsive Header"
+msgstr "Genesis Responsive Kopfzeile"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:171
+msgid "Genesis Grid Loop"
+msgstr "Genesis Grid-Loop"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:183
+msgid "Genesis Bootstrap Carousel"
+msgstr "Genesis Bootstrap Karussell"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:195
+msgid "Genesis Widget Toggle"
+msgstr "Genesis Widget Toggle"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:207
+msgid "Genesis Accordion"
+msgstr "Genesis Akkordion"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:219
+msgid "Genesis Post Navigation"
+msgstr "Genesis Beitragsnavigation"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:231
+msgid "Genesis 404 Page"
+msgstr "Genesis 404-Fehlerseite"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:243
+msgid "Genesis Design Palette"
+msgstr "Genesis Design-Palette"
+
+#@ genesis-extra-settings-transporter
+#. translators: plugin header field 'Name'
+#: genesis-extra-settings-transporter.php:0
+#: genesis-extra-settings-transporter.php:101
+#: genesis-extra-settings-transporter.php:110
+#: includes/gest-admin-extras.php:129
+#: includes/gest-admin-extras.php:148
+#: includes/gest-admin-extras.php:155
+#: includes/gest-admin-functions.php:1143
+msgid "Genesis Extra Settings Transporter"
+msgstr "Genesis Extra-Einstellungen Transporter"
+
+#@ genesis-extra-settings-transporter
+#. translators: plugin header field 'PluginURI'
+#: genesis-extra-settings-transporter.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/genesis-extra-settings-transporter/"
+msgstr "http://genesisthemes.de/plugins/genesis-extra-settings-transporter/"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:52
+msgid "Go to the Genesis Exporter page"
+msgstr "Zur Genesis Exporter-Seite gehen ..."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:52
+msgid "Export/ Import"
+msgstr "Export/ Import"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:86
+#: includes/gest-admin-extras.php:179
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:87
+#: includes/gest-admin-extras.php:179
+msgid "Support"
+msgstr "Hilfe und Unterstützung (Support)"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:88
+#: includes/gest-admin-extras.php:179
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:89
+#: includes/gest-admin-extras.php:179
+msgid "Donate"
+msgstr "Spenden"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:178
+msgid "Important plugin links:"
+msgstr "Wichtige Plugin-Links"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:179
+msgid "Plugin website"
+msgstr "Plugin-Webseite"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:246
+msgid "More about the plugin author"
+msgstr "Mehr über den Plugin-Autor"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:247
+msgid "Social:"
+msgstr "Vernetzen:"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:255
+msgid "Generate Box"
+msgstr "Generate Box"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:378
+msgid "Child Theme"
+msgstr "Child Theme"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:383
+msgid "third-party product"
+msgstr "Drittanbieter-Produkt"
+
+#@ genesis-extra-settings-transporter
+#. translators: plugin header field 'Description'
+#: genesis-extra-settings-transporter.php:0
+msgid "Adds support for exporting settings of various Genesis Framework specific plugins & Child Themes via the Genesis Exporter feature."
+msgstr "Das Plugin erweitert die Genesis Exporter-Funktion um die Einstellungen verschiedener Genesis Framework-spezifischer Plugins sowie Genesis Child Themes."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:150
+msgid "A Typical Workflow Example"
+msgstr "Ein typisches Beispiel für einen Workflow"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:151
+msgid "Transfer settings from a development install to the live/ production install."
+msgstr "Einstellungen von einer Entwicklungs-Installation zu einer Live-Installation übertragen."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:152
+msgid "Prerequisites/ Requirements"
+msgstr "Vorbereitungen/ Anforderungen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:154
+#, php-format
+msgid "On BOTH sites/ installations you have installed & activated for example the (great) %s child theme, plus the following plugins:"
+msgstr "Auf BEIDEN Webseiten/ Installationen haben Sie zum Beispiel das (großartige) %s Child Theme installiert, sowie die folgenden Plugins:"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:154
+msgid "Curtail"
+msgstr "Curtail"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:155
+#, php-format
+msgid "On BOTH sites/ installations you have installed & activated this plugin, %s."
+msgstr "Auf BEIDEN Webseiten/ Installationen haben Sie dieses Plugin, %s,  installiert &amp; aktiviert."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:156
+msgid "It's recommended to have THE VERY SAME VERSIONS installed on the original site and also the receiving site. Reason: sometimes settings differ between plugin or child theme versions. So with making sure you have the same versions installed you just ensure the correct settings are included within the export file."
+msgstr "Es wird empfohlen, dass auf der Original-Webseite und der empfangenden Webseite DIESELBEN VERSIONEN installiert sind. Grund: manchmal unterscheiden sich Einstellungen zwischen einzelnen Plugin- oder Child Theme Versionen. Wenn Sie sicherstellen, dass überall dieselbe Version installiert, gehen Sie auch sicher, dass die korrekten Einstellungen in der Exportdatei landen."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:158
+msgid "Transfer"
+msgstr "Übertragen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:160
+#, php-format
+msgid "On the development install: Just make an Export file via %s admin page:"
+msgstr "In der Entwicklungs-Installation: nun eine Exportdatei erstellen über die %s Admin-Seite:"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:161
+#, php-format
+msgid "In the %s section there enable all checkboxes you need."
+msgstr "Im %s-Bereich alle gewünschten Kontrollkästchen aktivieren."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:161
+#: includes/gest-admin-extras.php:216
+msgid "Export"
+msgstr "Export"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:162
+#, php-format
+msgid "Save the %s file to your computer."
+msgstr "Die %s-Datei auf Ihrem Rechner speichern."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:163
+#, php-format
+msgid "On the live/ production site, just import this %s file and you're done!"
+msgstr "Auf der Live-Webseite nun diese %s-Datei importieren und Sie sind fertig! :)"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:380
+msgid "Theme Settings"
+msgstr "Theme-Einstellungen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:381
+msgid "Footer Settings"
+msgstr "Fußzeilen-Einstellungen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:1143
+#, php-format
+msgid "Notes for the %s plugin"
+msgstr "Hinweise für das Plugin %s"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:1146
+#, php-format
+msgid "Check boxes in the Exporter section above that have a label with the prefix %s or %s are from that plugin."
+msgstr "Kontrollkästchen im Exporter-Bereich oben, welche eine Beschriftung mit dem Präfix %s oder %s haben, sind von diesem Plugin."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:1150
+msgid "There's NO warranty supplied when you use this plugin, all at your own risk!"
+msgstr "Es wird KEINE Garantie für die Verwendung dieses Plugins übernommen, alles geschieht auf eigenes Risiko!"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:160
+msgid "Genesis &#x2192; Import/Export"
+msgstr "Genesis &#x2192; Import/ Export"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:39
+msgid "official release"
+msgstr "veröffentlicht von StudioPress"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:40
+msgid "community release"
+msgstr "Community-Veröffentlichung"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:382
+msgid "via Community/ Marketplace"
+msgstr "via StudioPress Community/ Marketplace"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:168
+msgid "What is supported?"
+msgstr "Was wird unterstützt?"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:170
+msgid "List of all supported plugins"
+msgstr "Liste aller unterstützten Plugins"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:171
+msgid "List of all supported child themes"
+msgstr "Liste aller unterstützten Child Themes"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:267
+msgid "Genesis Custom Backgrounds"
+msgstr "Genesis Benutzerdefinierte Hintergrundbilder"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:279
+msgid "Genesis Portfolio"
+msgstr "Genesis Portfolio (Beta)"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:298
+msgid "Genesis Custom Post Types Archives"
+msgstr "Genesis Benutzerdefinierte Inhaltstypen Archive"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:215
+msgid "currently active"
+msgstr "derzeit aktiv"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:216
+msgid "Import"
+msgstr "Import"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:221
+msgid "not active/ installed"
+msgstr "nicht aktiv/ installiert"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:203
+#, php-format
+msgid "For the %s plugin: Why are inpost/ inpage settings not included?"
+msgstr "Für das %s Plugin: Warum werden Einstellungen der Beiträge/ Seiten nicht inkludiert?"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:203
+#, php-format
+msgid "This is not possible as these settings belong to the actual post meta. You can always import & export all posts/ pages/ custom post types via %s, including those settings."
+msgstr "Dies ist nicht möglich, da diese Einstellungen zu den Beitrags-Metadaten gehören. Diese können jederzeit über die %s importiert und exportiert werden - für alle Beiträge, Seiten, Inhaltstypen - die entsprechenden Eindestellungen sind dann inklusive."
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:203
+msgid "native WordPress export and import functionality"
+msgstr "native WordPress Export- und Importfunktionalität"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:226
+msgid "For Widget settings:"
+msgstr "Für Widget-Einstellungen:"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:226
+#, php-format
+msgid "Not possible, there is no such functionality in WordPress core as is in Genesis yet! However, there's a nice third-party plugin for that, to use at your own risk: %s"
+msgstr "Nicht möglich, da es keine solche Funktionalität in WordPress oder Genesis gibt! Wie auch immer, es gibt ein recht nützliches Drittanbieter-Plugin dafür - Verwendung auf eigenes Risiko: %s"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-extras.php:226
+msgid "Widget Settings Importer/Exporter"
+msgstr "Widget Einstellungen Importer/ Exporter"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-premise-functions.php:31
+msgid "Premium plugin:"
+msgstr "Premium-Plugin:"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-premise-functions.php:31
+msgid "Premise Settings"
+msgstr "Premise Einstellungen"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-premise-functions.php:39
+msgid "Premise Module:"
+msgstr "Premise Modul:"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-premise-functions.php:39
+msgid "Member Access Settings"
+msgstr "Mitglieder-Zugriff-Einstellungen"
+
+#@ genesis-extra-settings-transporter
+#. translators: plugin header field 'Version'
+#: genesis-extra-settings-transporter.php:0
+msgid "1.2.0"
+msgstr "1.2.0"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:312
+msgid "WP Genesis Box"
+msgstr "WP Genesis Box"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:329
+msgid "Dynamic Content Gallery (DCG)"
+msgstr "Dynamic Content Gallery (DCG)"
+
+#@ genesis-extra-settings-transporter
+#: includes/gest-admin-functions.php:341
+msgid "WP-Cycle"
+msgstr "WP-Cycle"
+

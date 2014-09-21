@@ -1,0 +1,66 @@
+/**
+ * Plugin: Genesis Widgetized Footer
+ *
+ * @package    Genesis Widgetized Footer
+ * @subpackage Frontend Styles
+ * @author     David Decker - DECKERWEB
+ * @copyright  Copyright (c) 2012-2013, David Decker - DECKERWEB
+ * @license    http://www.opensource.org/licenses/gpl-license.php GPL-2.0+
+ * @link       http://genesisthemes.de/en/wp-plugins/genesis-widgetized-footer/
+ * @link       http://deckerweb.de/twitter
+ *
+ * @since	   1.0.0
+ * @version	   1.4.0
+ */
+
+/* Widgets in Genesis #footer Area
+------------------------------------------------------------ */
+
+/* Space around the whole container */
+#gwfoot-footer-one-area,
+#gwfoot-footer-two-area,
+#gwfoot-footer-disclaimer-area {
+	padding: 5px;
+}
+
+/* Float Footer Area #1 + #2 */
+#footer #gwfoot-footer-one-area,
+#footer #gwfoot-footer-two-area {
+	float: left;
+}
+
+/* Set widths */
+.gwfoot-footer-one-full-width,
+.gwfoot-footer-two-full-width {
+	max-width: 100%;
+}
+
+.gwfoot-footer-one-one-third {
+	width: 32%;
+}
+
+.gwfoot-footer-two-two-thirds {
+	width: 65%;
+}
+
+.gwfoot-footer-one-one-third,
+.gwfoot-footer-two-two-thirds {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Footer Disclaimer */
+.gwfoot-footer-disclaimer-content {
+	font-size: 0.75em;
+	line-height: 1.5em;
+	margin: 20px 20px 10px;
+}
+
+#gwfoot-footer-disclaimer-area .widget-area h4 {
+	font-size: 1.0em;
+}
+
+/* More bottom space after each widget */
+#footer div.widget-area {
+	margin-bottom: 10px;
+}
