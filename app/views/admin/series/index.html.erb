@@ -1,0 +1,21 @@
+<% if notice %>
+<p data-alert id="notice" class="alert-success"><%= notice %><a class="close">&times;</a></p>
+<% end %>
+
+<% @series.each do |series| %>
+<article class="series_list">
+  <header>
+    <img class="series_podcast_photo" src="<%= series.podcast_photo %>" />
+    <h1><%= link_to series.title, series_title_path(series.stitle) %></h1>
+  </header>
+  <section>
+    <p><%= series.body %></p>
+  </section>
+  <p style="clear:both; text-align:right; margin-right: 3px;">Series Controls: <%= link_to 'New', new_admin_series_path %> | 
+                      <%= link_to 'Edit', edit_admin_series_path(series.id) %> | 
+                      <%= link_to 'Delete', admin_series_path(series.id), data: {:method => :delete, confirm: "Are you sure?" } %> | 
+                      <%= link_to 'Details', admin_series_path(series.id) %>
+  </p>
+</article>
+
+<% end %>

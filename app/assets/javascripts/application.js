@@ -18,4 +18,4 @@
 //= require foundation
 //= require responsive-menu
 //= require reftagger
-//= require pnc
+//= require refresh-help

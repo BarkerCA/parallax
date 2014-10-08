@@ -1,0 +1,85 @@
+<%= form_for(@series, url: "/admin/series/#{@series.id}") do |f| %>
+  <% if @series.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@series.errors.count, "error") %> prohibited this series from being saved:</h2>
+
+      <ul>
+      <% @series.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :stitle %><br>
+    <%= f.text_field :stitle %>
+  </div>
+  <div class="field">
+    <%= f.label :photo %><br>
+    <%= f.text_field :photo %>
+  </div>
+  <div class="field">
+    <%= f.label :podcast_photo %><br>
+    <%= f.text_field :podcast_photo %>
+  </div>
+  <div class="field">
+    <%= f.label :body %><br>
+    <%= f.text_area :body %>
+  </div>
+  <div class="field">
+    <%= f.label :published %><br>
+    <%= f.check_box :published %>
+  </div>
+  <div class="field">
+    <%= f.label :width %><br>
+    <%= f.text_field :width %>
+  </div>
+  <div class="field">
+    <%= f.label :height %><br>
+    <%= f.text_field :height %>
+  </div>
+  <div class="field">
+    <%= f.label :scrolling %><br>
+    <%= f.text_field :scrolling %>
+  </div>
+  <div class="field">
+    <%= f.label :frameborder %><br>
+    <%= f.text_field :frameborder %>
+  </div>
+  <div class="field">
+    <%= f.label :playlist %><br>
+    <%= f.text_field :playlist %>
+  </div>
+  <div class="field">
+    <%= f.label :color %><br>
+    <%= f.text_field :color %>
+  </div>
+  <div class="field">
+    <%= f.label :autoplay %><br>
+    <%= f.check_box :autoplay %>
+  </div>
+  <div class="field">
+    <%= f.label :hide_related %><br>
+    <%= f.check_box :hide_related %>
+  </div>
+  <div class="field">
+    <%= f.label :show_comments %><br>
+    <%= f.check_box :show_comments %>
+  </div>
+  <div class="field">
+    <%= f.label :show_user %><br>
+    <%= f.check_box :show_user %>
+  </div>
+  <div class="field">
+    <%= f.label :show_reposts %><br>
+    <%= f.check_box :show_reposts %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

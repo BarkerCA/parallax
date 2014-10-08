@@ -1,0 +1,56 @@
+Series Table
+------------
+# Title is the title of the series in normal text
+title:string
+
+# Stitle is the title of the series after spaces, apostrophies, commas, quotes, etc have been removed
+# URL friendly
+stitle:string
+
+# URL to the series photo
+photo:string
+
+# URL to podcast photo
+podcast_photo:string
+
+# Body text for the description of the series
+body:text
+
+# Whether or not the article is published
+published:boolean
+
+# Width of SoundCloud player
+width:string
+
+# Height of SoundCloud player
+height:string
+
+# Scrolling ability of SoundCloud player
+scrolling:string
+
+# Frameborder setting of SoundCloud player
+frameborder:string
+
+# SoundCloud playlist
+playlist:string
+
+# Highlight color of SoundCloud player
+color:string
+
+# Autoplay feature of SoundCloud player
+autoplay:boolean
+
+# Hide related SoundCloud player
+hide_related:boolean
+
+# Show comments SoundCloud player
+show_comments:boolean
+
+# Show user SoundCloud player
+show_user:boolean
+
+# Show reposts SoundCloud player
+show_reposts:boolean
+
+# Generate Command
+rails generate scaffold series title:string stitle:string photo:string podcast_photo:string body:text published:boolean width:string height:string scrolling:string frameborder:string playlist:string color:string autoplay:boolean hide_related:boolean show_comments:boolean show_user:boolean show_reposts:boolean

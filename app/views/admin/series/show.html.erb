@@ -1,0 +1,99 @@
+<% if notice %>
+<p data-alert id="notice" class="alert-success"><%= notice %><a class="close">&times;</a></p>
+<% end %>
+
+<p>
+  <strong>Title:</strong>
+  <%= @series.title %>
+</p>
+
+<p>
+  <strong>Sanitized Title:</strong>
+  <a href="/series/title/<%= @series.stitle %>"><%= @series.stitle %></a>
+</p>
+
+<p>
+  <strong>SoundCloud Player</strong>
+  <%= raw @soundcloud %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @series.photo %>
+</p>
+<p><img src="<%= @series.photo %>" /></p>
+
+<p>
+  <strong>Podcast photo:</strong>
+  <%= @series.podcast_photo %>
+</p>
+<p><img src="<%= @series.podcast_photo %>" /></p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @series.body %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @series.published %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @series.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @series.height %>
+</p>
+
+<p>
+  <strong>Scrolling:</strong>
+  <%= @series.scrolling %>
+</p>
+
+<p>
+  <strong>Frameborder:</strong>
+  <%= @series.frameborder %>
+</p>
+
+<p>
+  <strong>Playlist:</strong>
+  <%= @series.playlist %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @series.color %>
+</p>
+
+<p>
+  <strong>Autoplay:</strong>
+  <%= @series.autoplay %>
+</p>
+
+<p>
+  <strong>Hide related:</strong>
+  <%= @series.hide_related %>
+</p>
+
+<p>
+  <strong>Show comments:</strong>
+  <%= @series.show_comments %>
+</p>
+
+<p>
+  <strong>Show user:</strong>
+  <%= @series.show_user %>
+</p>
+
+<p>
+  <strong>Show reposts:</strong>
+  <%= @series.show_reposts %>
+</p>
+
+<%= link_to 'Edit', edit_admin_series_path(@series) %> | 
+<%= link_to 'Delete', admin_series_path(@series.id), data: {:method => :delete, confirm: "Are you sure?" } %> | 
+<%= link_to 'Back', admin_series_index_path %>

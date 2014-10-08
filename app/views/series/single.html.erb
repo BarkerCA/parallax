@@ -1,0 +1,16 @@
+<article class="series_single row">
+  <header class="medium-12 columns">
+    <img class="series_photo" src="<%= @series.photo %>" />
+    <h1><%= @series.title %></h1>
+    <p><%= raw @series.body %></p>
+    <hr />
+  </header>
+  <section class="medium-12 columns">
+    <div class="medium-4 columns">
+      Article Sidebar
+    </div>
+    <div class="medium-8 columns">
+      <%= raw @soundcloud %>
+    </div>
+  </section>
+</article>

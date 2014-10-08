@@ -1,0 +1,12 @@
+<% @series.each do |series| %>
+<article class="series_list">
+  <header>
+    <img class="series_podcast_photo" src="<%= series.podcast_photo %>" />
+    <h2><%= link_to series.title, series_title_path(series.stitle) %></h2>
+  </header>
+  <section>
+    <p><%= series.body %></p>
+  </section>
+  <p style="clear:both;">&nbsp;</p>
+</article>
+<% end %>

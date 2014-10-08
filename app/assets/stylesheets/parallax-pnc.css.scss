@@ -289,6 +289,10 @@ img {
 /* Forms
 --------------------------------------------- */
 
+textarea{
+  min-height: 200px;
+}
+
 input,
 select,
 textarea {
@@ -461,11 +465,13 @@ Structure and Layout
 .site-inner {
   clear: both;
   margin-top: 87px;
+  padding-top: 10px;
 }
 
 .parallax-home .site-inner {
   margin-top: 87px;
   max-width: 100%;
+  padding-top: 0px;
 }
 
 .parallax-landing .site-inner {
@@ -1014,7 +1020,6 @@ Site Navigation
 .site-header .sub-menu {
   //background-color: #000;
   background-color: rgba($pnc_gray, 0.7);
-  box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
   border-bottom-left-radius: $big-border-radius;
   border-bottom-right-radius: $big-border-radius;
 }

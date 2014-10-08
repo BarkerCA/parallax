@@ -1,0 +1,93 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @series.title %>
+</p>
+
+<p>
+  <strong>Stitle:</strong>
+  <a href="/series/title/<%= @series.stitle %>"><%= @series.stitle %></a>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <img src="<%= @series.photo %>" />
+  <%= @series.photo %>
+</p>
+
+<p>
+  <strong>Podcast photo:</strong>
+  <img src="<%= @series.podcast_photo %>" />
+  <%= @series.podcast_photo %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @series.body %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @series.published %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @series.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @series.height %>
+</p>
+
+<p>
+  <strong>Scrolling:</strong>
+  <%= @series.scrolling %>
+</p>
+
+<p>
+  <strong>Frameborder:</strong>
+  <%= @series.frameborder %>
+</p>
+
+<p>
+  <strong>Playlist:</strong>
+  <%= @series.playlist %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @series.color %>
+</p>
+
+<p>
+  <strong>Autoplay:</strong>
+  <%= @series.autoplay %>
+</p>
+
+<p>
+  <strong>Hide related:</strong>
+  <%= @series.hide_related %>
+</p>
+
+<p>
+  <strong>Show comments:</strong>
+  <%= @series.show_comments %>
+</p>
+
+<p>
+  <strong>Show user:</strong>
+  <%= @series.show_user %>
+</p>
+
+<p>
+  <strong>Show reposts:</strong>
+  <%= @series.show_reposts %>
+</p>
+
+<%= link_to 'Edit', edit_series_path(@series) %> |
+<%= link_to 'Back', series_index_path %>
+
+<%= raw @soundcloud %>

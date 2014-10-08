@@ -1,0 +1,76 @@
+$series-photo-border: 1px solid rgba($pnc_gray, 0.3);
+$top-margin: 10px;
+
+// Restyling
+body{
+  background: #333;
+}
+
+.site-inner article.entry{
+  @include border-radius($big-border-radius);
+  margin: 35px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background: $white;
+  border: $series-photo-border;
+  @include box-shadow;
+}
+
+// Controls the display of the series listing page
+article.series_list{
+  margin: $top-margin 0px 30px 0px;
+  border-bottom: $series-photo-border;
+  
+  img{
+    float: left;
+    margin: 0px 10px 10px -30px;
+    border: $series-photo-border;
+    border-radius: $big-border-radius;
+    box-shadow: 2px 2px 3px rgba($black, 0.4);
+    height: 200px;
+    width: 200px;
+  }
+  
+  p{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 0px;
+    text-align: justify;
+  }
+}
+
+// Controls the display of a single series page
+article.series_single{
+  
+  header{
+    padding: 0px 0px 0px 0px;
+    
+    img{
+      margin: 0px 0px 0px 0px;
+      width: 100%;
+      border-top-right-radius: $big-border-radius;
+      border-top-left-radius: $big-border-radius;
+      border: $series-photo-border;
+    }
+    
+    h1{
+      text-align: center;
+      margin-top: 10px;
+      display: none;
+    }
+    
+    p{
+      padding: 10px;
+      text-align: justify;
+      // margin-bottom: 25px;
+    }
+    
+    hr{
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  section{
+
+  }
+}

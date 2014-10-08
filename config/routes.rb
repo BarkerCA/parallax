@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
+
+  resources :series
   
+  namespace :admin do
+    resources :series
+  end 
+
+  get 'series/title/:title', to: 'series#single', as: 'series_title'
+  get 'series/title/:title' => 'series#single'
+
   root 'home#index'
   get 'test'    => 'test#test'
   get 'privacy' => 'test#privacy'
