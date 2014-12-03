@@ -18,4 +18,3 @@
 //= require foundation
 //= require responsive-menu
 //= require reftagger
-//= require refresh-help
