@@ -3,8 +3,10 @@ jQuery(function( $ ){
   if ($('#parallax-photo').hasClass('parallax-photo')) {
   
     var background = $('#parallax-background-image url').html();
-    var title = $('#parallax-background-image title').html();
-    $('#parallax-title').html(title);
+    var title = $('#parallax-background-image ptitle').html();
+    var color = $('#parallax-background-image color').html();
+    $('#parallax-title').html(title).css('color', color + "!important;");
+
     $('.parallax-photo').css({'background-image': 'url(' + background + ')'}).show();
   
     // Enable parallax and fade effects on homepage sections

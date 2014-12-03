@@ -52,6 +52,7 @@ class PNCShortcodes {
   function pnc_parallax_photo( $atts ) {
     $a = shortcode_atts( array(
         'url'     => null,
+        'color'   => '#FFFFFF',
         'title'   => '&nbsp;',
     ), $atts );
     
@@ -59,10 +60,11 @@ class PNCShortcodes {
 <!-- Put the URL to the parallax photo inside the div element below -->
 <div id=\"parallax-background-image\" style=\"display: none;\">
   <ptitle>%s</ptitle>
+  <color>%s</color>
   <url>%s</url>
 </div>
 <!-- END HTML Construct for parallax photo page -->
-    ", $a['title'], $a['url']);
+    ", $a['title'], $a['color'], $a['url']);
   }
   
   function pnc_soundcloud( $atts ){
