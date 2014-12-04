@@ -54,6 +54,8 @@ class PNCShortcodes {
         'url'     => null,
         'color'   => '#FFFFFF',
         'title'   => '&nbsp;',
+        'shadow_color' 		=> '0,0,0',
+        'shadow_opacity'	=> '0.5'	
     ), $atts );
     
     return sprintf( "
@@ -62,9 +64,11 @@ class PNCShortcodes {
   <ptitle>%s</ptitle>
   <color>%s</color>
   <url>%s</url>
+  <shadow_color>%s</shadow_color>
+  <shadow_opacity>%s</shadow_opacity>
 </div>
 <!-- END HTML Construct for parallax photo page -->
-    ", $a['title'], $a['color'], $a['url']);
+    ", $a['title'], $a['color'], $a['url'], $a[shadow_color], $a[shadow_opacity]);
   }
   
   function pnc_soundcloud( $atts ){
