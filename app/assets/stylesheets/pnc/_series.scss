@@ -6,6 +6,7 @@ body{
   background: #333;
 }
 
+// Messes up main page, need to have a body class to scope this
 .site-inner article.entry{
   @include border-radius($big-border-radius);
   margin: 35px 0px 0px 0px;
