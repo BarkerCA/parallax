@@ -3,7 +3,7 @@
 Plugin Name: PNC Shortcodes
 Plugin URI: http://www.pointenorth.org/pnc-shortcodes
 Description: Custom shortcodes for Pointe North Church
-Version: 1.0
+Version: 1.1
 Author: Pointe North Church
 Author URI: http://www.pointenorth.org
 Author Email: pnccinfo@pointenorth.org
@@ -72,12 +72,13 @@ class PNCShortcodes {
   }
   
   function pnc_soundcloud( $atts ){
+
     $a = shortcode_atts( array(
         'width'         => '100%',
-        'height'        => '300',
+        'height'        => '400',
         'scrolling'     => 'no',
         'frameborder'   => 'no',
-        'playlist'      => 'pointe-north',
+        'playlist'      => 'thanks-giving',
         'color'         => '77b800',
         'autoplay'      => 'false',
         'hide_related'  => 'true',
@@ -87,7 +88,7 @@ class PNCShortcodes {
     ), $atts );
     
     return sprintf( 
-    '<iframe width="%s" height="%s" scrolling="%s" frameborder="%s" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/%s&color=%s&auto_play=%s&hide_related=%s&show_comments=%s&show_user=%s&show_reposts=%s"></iframe>', 
+    '<iframe width="%s" height="%s" scrolling="%s" frameborder="%s" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/pointe-north/sets/%s&color=%s&auto_play=%s&hide_related=%s&show_comments=%s&show_user=%s&show_reposts=%s"></iframe>', 
     $a['width'], 
     $a['height'], 
     $a['scrolling'], 
@@ -101,7 +102,7 @@ class PNCShortcodes {
     $a['show_reposts'] 
     );
   }
-  
+
 }
 
 new PNCShortcodes();
