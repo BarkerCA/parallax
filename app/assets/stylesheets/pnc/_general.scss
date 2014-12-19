@@ -1,0 +1,41 @@
+// Stylesheet for the pnc_general page layout
+
+.pnc_general{
+  
+  .site-container{
+    
+    .site-inner{
+      
+      .content-sidebar-wrap{
+        
+        .content{
+          
+          width: 100%;
+          float: none;
+          padding: 0;
+          margin: 0;
+          .row{
+            
+            .medium-12{
+              
+              article{
+                
+                header{
+                  display: none;
+                }
+                
+                .entry-content{
+                  // Genesis Loop Starts Here
+                  
+                  .extra-margin{
+                    margin: 25px 0px 25px 0px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
