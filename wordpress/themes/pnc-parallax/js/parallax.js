@@ -7,6 +7,8 @@ jQuery(function( $ ){
     scrollwindow = scrolltop + $(window).height();
 
     $(".home-section-1").css("backgroundPosition", "0px " + -(scrolltop/6) + "px");
+    // Added support for full width parallax photos in regular pages.
+    $(".full-width-photo").css("backgroundPosition", "0px " + -(scrolltop/6) + "px");
 
     if( scrollwindow > $(".home-section-3").offset().top ) {
 

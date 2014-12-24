@@ -162,3 +162,23 @@ genesis_register_sidebar( array(
 	'name' => __( 'Home Section 7', 'parallax' ),
 	'description' => __( 'This is the home section 7 section.', 'parallax' ),
 ) );
+
+
+// PNC Shortcodes
+add_shortcode('pnc_parallax_photo', array(&$this, 'pnc_parallax_photo') );
+function pnc_parallax_photo( $atts ) {
+  $a = shortcode_atts( array(
+      'url'     => null,
+      'title'   => '&nbsp;',
+  ), $atts );
+  
+  return sprintf( "
+<!-- Put the URL to the parallax photo inside the div element below -->
+<div id=\"parallax-background-image\" style=\"display: none;\">
+  <ptitle>%s</ptitle>
+  <url>%s</url>
+</div>
+<!-- END HTML Construct for parallax photo page -->
+    ", $a['title'], $a['url']);
+}
+
