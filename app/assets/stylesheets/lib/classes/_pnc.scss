@@ -12,6 +12,42 @@
   color: $pnc-gray;
 }
 
+.pnc_orange{
+  color: $png-orange;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-italics{
+  font-style: italic;
+}
+
+.text-blue-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_blue;
+}
+
+.text-green-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_green;
+}
+
+.text-gray-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_gray;
+}
+
+.text-orange-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_orange;
+}
+
 /* Header Gradient */
 .header-linear{
   background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
