@@ -3,7 +3,7 @@
 Plugin Name: PNC Shortcodes
 Plugin URI: http://www.pointenorth.org/pnc-shortcodes
 Description: Custom shortcodes for Pointe North Church
-Version: 1.1
+Version: 1.2.1
 Author: Pointe North Church
 Author URI: http://www.pointenorth.org
 Author Email: pnccinfo@pointenorth.org
@@ -18,6 +18,10 @@ class PNCShortcodes {
     add_shortcode('pnc_content_box', array(&$this, 'pnc_content_box') );
     add_shortcode('pnc_parallax_photo', array(&$this, 'pnc_parallax_photo') );
     add_shortcode('pnc_soundcloud', array(&$this, 'pnc_soundcloud') );
+	add_shortcode('pnc_video_fullscreen', array(&$this, 'pnc_video_fullscreen') );
+	add_shortcode('pnc_video_widescreen', array(&$this, 'pnc_video_widescreen') );
+	add_shortcode('pnc_video_vimeo_fullscreen', array(&$this, 'pnc_video_vimeo_fullscreen') );
+	add_shortcode('pnc_video_vimeo_widescreen', array(&$this, 'pnc_video_vimeo_widescreen') );
   }
   
   function pnc_link_button( $atts ) {
@@ -101,6 +105,62 @@ class PNCShortcodes {
     $a['show_user'], 
     $a['show_reposts'] 
     );
+  }
+  
+  function pnc_video_fullscreen( $atts ) {
+    $a = shortcode_atts( array(
+        'url'     => '<iframe width="560" height="315" src="//www.youtube.com/embed/Hn0u0-7KTRg" frameborder="0" allowfullscreen></iframe>',	
+    ), $atts );
+    
+    return sprintf( "
+<!-- Begin HTML Construct for PNC Video -->
+<div class=\"flex-video\">
+	%s
+</div>
+<!-- END HTML Construct for PNC Video -->
+    ", $a['url']);
+  }
+
+  function pnc_video_widescreen( $atts ) {
+    $a = shortcode_atts( array(
+        'url'     => '<iframe width="560" height="315" src="//www.youtube.com/embed/Hn0u0-7KTRg" frameborder="0" allowfullscreen></iframe>',	
+    ), $atts );
+    
+    return sprintf( "
+<!-- Begin HTML Construct for PNC Video -->
+<div class=\"flex-video widescreen\">
+	%s
+</div>
+<!-- END HTML Construct for PNC Video -->
+    ", $a['url']);
+  }
+
+  function pnc_video_vimeo_fullscreen( $atts ) {
+    $a = shortcode_atts( array(
+        'url'     => '<iframe src="//player.vimeo.com/video/115684777?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',	
+    ), $atts );
+    
+    return sprintf( "
+<!-- Begin HTML Construct for PNC Video -->
+<div class=\"flex-video vimeo\">
+	%s
+</div>
+<!-- END HTML Construct for PNC Video -->
+    ", $a['url']);
+  }
+
+  function pnc_video_vimeo_widescreen( $atts ) {
+    $a = shortcode_atts( array(
+        'url'     => '<iframe src="//player.vimeo.com/video/115684777?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',	
+    ), $atts );
+    
+    return sprintf( "
+<!-- Begin HTML Construct for PNC Video -->
+<div class=\"flex-video vimeo widescreen\">
+	%s
+</div>
+<!-- END HTML Construct for PNC Video -->
+    ", $a['url']);
   }
 
 }
