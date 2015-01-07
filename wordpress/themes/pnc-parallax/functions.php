@@ -22,17 +22,17 @@ include_once( get_stylesheet_directory() . '/lib/output.php' );
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'PNC Parallax Theme' );
 define( 'CHILD_THEME_URL', 'http://www.pointenorth.org' );
-define( 'CHILD_THEME_VERSION', '1.2' );
+define( 'CHILD_THEME_VERSION', '1.3' );
 
 //* Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'parallax_enqueue_scripts_styles' );
 function parallax_enqueue_scripts_styles() {
 
 	wp_enqueue_script( 'parallax-responsive-menu', get_bloginfo( 'stylesheet_directory' ) . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0' );
-  wp_enqueue_script( 'reftagger', get_bloginfo( 'stylesheet_directory' ) . '/js/reftagger.js');
   wp_enqueue_script( 'modernizr', get_bloginfo( 'stylesheet_directory' ) . '/js/modernizr.js');
   wp_enqueue_script( 'foundation', get_bloginfo( 'stylesheet_directory' ) . '/js/foundation.min.js');
   wp_enqueue_script( 'pnc', get_bloginfo( 'stylesheet_directory' ) . '/js/pnc.js');
+  wp_enqueue_script( 'reftagger', get_bloginfo( 'stylesheet_directory' ) . '/js/reftagger.js');
 
 	wp_enqueue_style( 'dashicons' );
 	wp_enqueue_style( 'parallax-google-fonts', '//fonts.googleapis.com/css?family=Montserrat|Sorts+Mill+Goudy', array(), CHILD_THEME_VERSION );
@@ -162,23 +162,3 @@ genesis_register_sidebar( array(
 	'name' => __( 'Home Section 7', 'parallax' ),
 	'description' => __( 'This is the home section 7 section.', 'parallax' ),
 ) );
-
-
-// PNC Shortcodes
-add_shortcode('pnc_parallax_photo', array(&$this, 'pnc_parallax_photo') );
-function pnc_parallax_photo( $atts ) {
-  $a = shortcode_atts( array(
-      'url'     => null,
-      'title'   => '&nbsp;',
-  ), $atts );
-  
-  return sprintf( "
-<!-- Put the URL to the parallax photo inside the div element below -->
-<div id=\"parallax-background-image\" style=\"display: none;\">
-  <ptitle>%s</ptitle>
-  <url>%s</url>
-</div>
-<!-- END HTML Construct for parallax photo page -->
-    ", $a['title'], $a['url']);
-}
-
