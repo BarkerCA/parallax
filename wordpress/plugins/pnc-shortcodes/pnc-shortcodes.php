@@ -18,10 +18,10 @@ class PNCShortcodes {
     add_shortcode('pnc_content_box', array(&$this, 'pnc_content_box') );
     add_shortcode('pnc_parallax_photo', array(&$this, 'pnc_parallax_photo') );
     add_shortcode('pnc_soundcloud', array(&$this, 'pnc_soundcloud') );
-	add_shortcode('pnc_video_fullscreen', array(&$this, 'pnc_video_fullscreen') );
-	add_shortcode('pnc_video_widescreen', array(&$this, 'pnc_video_widescreen') );
-	add_shortcode('pnc_video_vimeo_fullscreen', array(&$this, 'pnc_video_vimeo_fullscreen') );
-	add_shortcode('pnc_video_vimeo_widescreen', array(&$this, 'pnc_video_vimeo_widescreen') );
+	  add_shortcode('pnc_video_fullscreen', array(&$this, 'pnc_video_fullscreen') );
+	  add_shortcode('pnc_video_widescreen', array(&$this, 'pnc_video_widescreen') );
+	  add_shortcode('pnc_video_vimeo_fullscreen', array(&$this, 'pnc_video_vimeo_fullscreen') );
+	  add_shortcode('pnc_video_vimeo_widescreen', array(&$this, 'pnc_video_vimeo_widescreen') );
   }
   
   function pnc_link_button( $atts ) {
