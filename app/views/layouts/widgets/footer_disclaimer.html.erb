@@ -28,11 +28,18 @@
       <a href="https://www.facebook.com/PointeNorth" target="_blank"><img class="social" id="facebook" src="/wp-content/themes/pnc-parallax/images/social/facebook-128.png" /></a>
       <a href="https://twitter.com/pncc_sc" target="_blank"><img class="social" id="twitter" src="/wp-content/themes/pnc-parallax/images/social/twitter-128.png" /></a>
       <a href="http://instagram.com/pncc_sc" target="_blank"><img class="social" id="instagram" src="/wp-content/themes/pnc-parallax/images/social/instagram-128.png" /></a>
-      <img style="cursor: pointer;" id="paypal_footer" class="social" id="twitter" src="/wp-content/themes/pnc-parallax/images/social/paypal-128.png" onclick="document.forms['paypal_form'].submit();" />
+      <img style="cursor: pointer;" class="social" id="paypal" src="/wp-content/themes/pnc-parallax/images/social/paypal-128.png" />
       <form id="paypal_form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input name="cmd" value="_s-xclick" type="hidden">
           <input name="hosted_button_id" value="P8SXZVLAKNRQW" type="hidden">
       </form>
+      <script type="text/javascript">
+        jQuery(document).ready(function(){
+          jQuery('#paypal').click(function(){
+            jQuery('#paypal_form').submit();
+          });
+        });
+      </script>
     </p>
   </div>
 </div>
