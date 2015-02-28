@@ -12,7 +12,7 @@ module PNC
       end
 
       def self.remove_specialchars(str)
-        str.gsub(/[\.,!'"@#$%^&*()\/\\|+=\[\]<>`~{}?_:;]/, '')
+        #str.gsub(/[\.,!'"@#$%^&*()\/\\|+=\[\]<>`~{}?_:;]/, '')
       end
 
     end
